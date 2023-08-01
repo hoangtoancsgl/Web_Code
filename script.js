@@ -33,7 +33,7 @@ function showPreviousSlide() {
 showSlide(currentSlide);
 
 
-// setInterval(showNextSlide, 3000);
+setInterval(showNextSlide, 3000);
 
 
 document.addEventListener("keydown", (event) => {
